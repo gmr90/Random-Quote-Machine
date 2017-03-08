@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<metachar set ='utf-8'>
+	<title>Random Quote</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- font awesome link-->
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="Styles.css">
+
+	<style type="text/css">
+	</style>
+
+
+ 
+</head>
+<body>
+	<main class="container-fluid text-center">
+			<div class="container cntr">
+				<h1 id="head1">Quote Machine</h1>
+				<div   class = "text-center well">
+
+					<blockquote  >
+						<!--Quote will display here -->
+						<span id = "quoteDisplay">The fool doth think he is wise, but the wise man knows himself to be a fool. - William Shakespeare, As You Like It</span>
+					</blockquote><br>
+					
+					
+				</div>
+				<div class="row">
+					<div  class="col-md-6">
+						<a class="twitter-share-button" href="https://twitter.com/intent/tweet/?text='The fool doth think he is wise, but the wise man knows himself to be a fool. - William Shakespeare, As You Like It' " ata-size="large" target="_blank">
+							<button class="fa fa-twitter twitter-share-button btn btn-primary">Tweet this!</button> 
+						</a>		
+					</div>
+					<div class="col-md-6">
+						<button onclick="newQuote()" class="btn btn-primary btn-rounded">New Quote</button>
+				
+					</div>
+				</div>
+				
+			</div>
+			
+			
+			<script type="text/javascript" src="javascript.js"></script>
+	</main>
+</body>
+</html>
